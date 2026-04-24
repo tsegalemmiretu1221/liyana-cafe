@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vitejs.dev/config/
 export default defineConfig(({ command }) => ({
-  base: command === 'build' ? '/Platinumhotelmanue/' : '/',
+  base: command === 'build' ? '/liyana-cafe/' : '/',
   plugins: [
     react(),
     tailwindcss(),
