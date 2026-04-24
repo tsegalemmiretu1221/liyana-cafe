@@ -132,9 +132,9 @@ export const foodData = [
         "navImage": "/images/nav_burger_snacks.png",
         "items": [
             {
-                "name": "Chicken Wrap",
+                "name": "Chicken Warp",
                 "price": "680.00",
-                "description": "Chicken wrapped in ¬our tortilla sprinkled with grated Mozzarella cheese, hot chili and served with guacamole and sour cream.",
+                "description": "Chicken wrapped in our tortilla sprinkled with grated Mozzarella cheese, hot chili and served with guacamole and sour cream.",
                 "name_am": "የዶሮ ጥቅል",
                 "name_ar": "راب دجاج",
                 "name_fr": "Wrap au poulet",
@@ -146,8 +146,8 @@ export const foodData = [
             },
             {
                 "name": "Tuna Sandwich",
-                "price": "550.00",
-                "description": "Tuna chunk tossed with onions, tomatoes, topped with melted cheese on baguette bread & French fries.",
+                "price": "450.00",
+                "description": "Tuna chunk tossed with onions, tomatoes, topped with melted cheese on baguette bread & French fries",
                 "name_ar": "ساندويتش تونة",
                 "name_am": "ቱና ሳንድዊች",
                 "name_zh": "金枪鱼三明治",
@@ -158,22 +158,9 @@ export const foodData = [
                 "description_fr": "Morceau de thon mélangé avec des oignons, des tomates, garni de fromage fondu sur du pain baguette et des frites."
             },
             {
-                "name": "Beef filet Sandwich",
-                "price": "820.00",
-                "description": "A juicy lightly grilled crispy Beef filet with cheese and crunchy lettuce, tomato, mayonnaise and the perfect all on a toasted bun.",
-                "name_ar": "ساندويتش لحم فيليه",
-                "name_fr": "Sandwich au filet de boeuf",
-                "name_am": "የበሬ ሥጋ ፋይል ሳንድዊች",
-                "name_zh": "菲力牛排三明治",
-                "description_fr": "Un filet de bœuf croustillant légèrement grillé avec du fromage et de la laitue croquante, de la tomate, de la mayonnaise et le tout parfait sur un petit pain grillé.",
-                "description_ar": "فيليه لحم بقري مقرمش مشوي قليلاً مع الجبن والخس المقرمش والطماطم والمايونيز والخبز المحمص.",
-                "description_zh": "多汁的轻烤酥脆牛里脊配上奶酪和松脆的生菜、番茄、蛋黄酱，完美地搭配烤面包。",
-                "description_am": "በቀላል የተጠበሰ የበሬ ሥጋ ከቺዝ እና ክራንክ ሰላጣ፣ ቲማቲም፣ ማዮኔዝ እና ፍጹም ሁሉም የተጠበሰ ዳቦ ላይ።"
-            },
-            {
                 "name": "Special Burger",
                 "price": "800.00",
-                "description": "160 gm. Grilled minced beef, topped with your choice of Cheese, egg, & chili, served with French fires.",
+                "description": "160 gm. Grilled minced beef, topped with your choice of Cheese, egg, & chili, served with French fires",
                 "name_zh": "特色汉堡",
                 "name_ar": "برجر خاص",
                 "name_am": "ስፔሻል በርገር",
@@ -199,7 +186,7 @@ export const foodData = [
             {
                 "name": "Cheese Burger",
                 "price": "680.00",
-                "description": "Minced beef, cheese, mayonnaise, onion, tomato, lettuce.",
+                "description": "Minced beef, cheese, mayonnaise, onion, tomato, lettuce",
                 "name_ar": "برجر بالجبنة",
                 "name_am": "ቺዝ በርገር",
                 "description_ar": "لحم بقري مفروم، جبنة، مايونيز، بصل، طماطم، خس.",
@@ -212,7 +199,7 @@ export const foodData = [
             {
                 "name": "Club Sandwich",
                 "price": "750.00",
-                "description": "Triple decker sandwich, layered with beef or Chicken, egg, cheese, tomato,Lettuce and Mayonnaise, served with French fries.",
+                "description": "Triple decker sandwich, layered with beef or Chicken, egg, cheese, tomato, Lettuce and Mayonnaise, served with French fries.",
                 "name_ar": "كلوب ساندويتش",
                 "name_zh": "俱乐部三明治",
                 "name_am": "ክለብ ሳንድዊች",
@@ -224,8 +211,8 @@ export const foodData = [
             },
             {
                 "name": "French fries",
-                "price": "250.00",
-                "description": "A popular snack dish made from thin-cut potatoes and deep-fried, served hot and salted, and often enjoyed with dipping sauces ketchup.",
+                "price": "220.00",
+                "description": "A popular snack dish made from thin-cut potatoes and deep-fried, served hot and salted, and often enjoyed with dipping sauces ketchup",
                 "name_fr": "frites",
                 "name_am": "ባለጣት የድንች ጥብስ",
                 "name_zh": "炸薯条",
@@ -236,9 +223,9 @@ export const foodData = [
                 "description_fr": "Un plat de collation populaire à base de pommes de terre coupées finement et frites, servi chaud et salé, et souvent apprécié avec des trempettes au ketchup."
             },
             {
-                "name": "Lentil Sambussa",
-                "price": "250.00",
-                "description": "White Flour Salt Oil onion green Chile Leek Garlic & Whole Lintel.",
+                "name": "Lentil Sambusa",
+                "price": "220.00",
+                "description": "White Flour Salt Oil onion green chile Baro Garlic & Whole Lintel",
                 "name_fr": "Sambussa aux lentilles",
                 "name_ar": "سمبوسة العدس",
                 "name_zh": "扁豆桑布萨",
@@ -250,8 +237,8 @@ export const foodData = [
             },
             {
                 "name": "Spring roll",
-                "price": "250.00",
-                "description": "White Flour Salt Oil Carrot Cabbage &Green beans.",
+                "price": "180.00",
+                "description": "White Flour Salt Oil Carrot Cabbage &Green beans",
                 "name_fr": "Rouleau de printemps",
                 "name_am": "ስፕሪንግ ሮል",
                 "description_fr": "Farine blanche Sel Huile Carotte Chou & Haricots verts.",
@@ -273,6 +260,34 @@ export const foodData = [
                 "description_zh": "鸡肉、洋葱、番茄、辣椒、蛋黄酱",
                 "description_fr": "Poulet, oignon, tomate, chili, mayonnaise",
                 "description_am": "ዶሮ, ሽንኩርት, ቲማቲም, ቺሊ, ማዮኔዝ"
+            },
+            {
+                "name": "Vegetable warp",
+                "price": "380.00",
+                "description": "Mixed cooked vegetable"
+            },
+            {
+                "name": "Beef warp",
+                "price": "620.00",
+                "description": "Beef, mayonnaise, onion, tomato, lettuce"
+            },
+            {
+                "name": "Beef filet Sandwich",
+                "price": "820.00",
+                "description": "A juicy lightly grilled crispy Beef filet with cheese and crunchy lettuce, tomato, mayonnaise and the perfect all on a toasted bun",
+                "name_ar": "ساندويتش لحم فيليه",
+                "name_fr": "Sandwich au filet de boeuf",
+                "name_am": "የበሬ ሥጋ ፋይል ሳንድዊች",
+                "name_zh": "菲力牛排三明治",
+                "description_fr": "Un filet de bœuf croustillant légèrement grillé avec du fromage et de la laitue croquante, de la tomate, de la mayonnaise et le tout parfait sur un petit pain grillé.",
+                "description_ar": "فيليه لحم بقري مقرمش مشوي قليلاً مع الجبن والخس المقرمش والطماطم والمايونيز والخبز المحمص.",
+                "description_zh": "多汁的轻烤酥脆牛里脊配上奶酪和松脆的生菜、番茄、蛋黄酱，完美地搭配烤面包。",
+                "description_am": "በቀላል የተጠበሰ የበሬ ሥጋ ከቺዝ እና ክራንክ ሰላጣ፣ ቲማቲም፣ ማዮኔዝ እና ፍጹም ሁሉም የተጠበሰ ዳቦ ላይ።"
+            },
+            {
+                "name": "Croissant Sandwich",
+                "price": "330.00",
+                "description": "Croissant, Onion, Egg, Salad, Mayonnaise"
             }
         ],
         "title_ar": "برجر ووجبات خفيفة",
@@ -283,6 +298,22 @@ export const foodData = [
         "subtitle_zh": "三明治",
         "title_am": "በርገር እና መክሰስ",
         "subtitle_am": "ሳንድዊቾች"
+    },
+    {
+        "id": "extra-and-others",
+        "title": "EXTRA & OTHERS",
+        "subtitle": "Extras",
+        "headerImage": "/images/header_sharing.png",
+        "navImage": "/images/nav_side_dishes.png",
+        "items": [],
+        "title_am": "ተጨማሪ እና ሌሎች",
+        "subtitle_am": "ተጨማሪ",
+        "title_zh": "额外及其他",
+        "subtitle_zh": "额外",
+        "title_ar": "إضافات وأخرى",
+        "subtitle_ar": "إضافات",
+        "title_fr": "EXTRA ET AUTRES",
+        "subtitle_fr": "Extras"
     }
 ];
 
@@ -427,7 +458,7 @@ export const drinksData = [
             {
                 "name": "Strawberry milk shake",
                 "price": "400.00",
-                "description": "Strawberry Milk Vanilla & Sugar.",
+                "description": "Strawberry Milk Vanilla & Sugar",
                 "name_ar": "مخفوق الحليب بالفراولة",
                 "name_fr": "Milk-shake aux fraises",
                 "name_zh": "草莓奶昔",
@@ -440,7 +471,7 @@ export const drinksData = [
             {
                 "name": "Avocado milk shake",
                 "price": "350.00",
-                "description": "Avocado Milk & Sugar.",
+                "description": "Avocado Milk & Sugar",
                 "name_ar": "مخفوق الحليب بالأفوكادو",
                 "name_fr": "Milk-shake à l'avocat",
                 "name_zh": "鳄梨奶昔",
@@ -475,6 +506,16 @@ export const drinksData = [
                 "description_am": "ዱባ, ስፒናች, ሎሚ እና ዝንጅብል. ከሁለት አጃቢዎች ምርጫዎ ጋር ይቀርባል፡ (ወፍራም የተጠበሰ ድንች፣ ነጭ ሽንኩርት የተፈጨ ድንች፣ በእንፋሎት የተቀመመ አትክልት፣ የተጠበሰ ጎመን ወይም ሜዳ ሩዝ) እና የሾርባ ምርጫ፡ (የበለሳን ዲል፣ በርበሬ በቆሎ፣ እንጉዳይ፣ ነጭ ሽንኩርት ቅቤ ወይም ክሬም መረቅ)።",
                 "description_fr": "Concombre, épinards, citron et gingembre. Servi avec votre choix de deux accompagnements : (Pomme de terre frite épaisse, Purée de pomme de terre à l'ail, Légumes cuits à la vapeur, Chou frisé sauté ou Riz nature) et un choix de sauce : (Aneth balsamique, Maïs poivré, Champignon, Beurre à l'ail ou Sauce à la crème).",
                 "description_zh": "黄瓜、菠菜、柠檬和生姜。搭配您选择的两种配菜：（厚炸土豆、大蒜土豆泥、蒸蔬菜、炒羽衣甘蓝或白米饭）和一种选择的酱汁：（香醋莳萝、胡椒玉米、蘑菇、大蒜黄油或奶油酱）。"
+            },
+            {
+                "name": "Orange juice",
+                "price": "350.00",
+                "description": "Orange Fruit & sugar"
+            },
+            {
+                "name": "Watermelon juice",
+                "price": "250.00",
+                "description": "Watermelon & sugar"
             }
         ],
         "title_ar": "عصير طازج وعصير",
@@ -493,70 +534,70 @@ export const drinksData = [
         "headerImage": "/images/header_beer_bottled.png",
         "navImage": "",
         "items": [
-          {
-                    "name": "Heineken Beer",
-                    "price": "250.00",
-                    "description": "",
-                    "name_zh": "喜力啤酒",
-                    "name_ar": "بيرة هاينكن",
-                    "name_fr": "Bière Heineken",
-                    "name_am": "ሄኒከን ቢራ"
-          },
-          {
-                    "name": "Bedele Beer",
-                    "price": "250.00",
-                    "description": "",
-                    "name_fr": "Bière Bedélé",
-                    "name_ar": "بيرة بيديلي",
-                    "name_zh": "比德勒啤酒",
-                    "name_am": "በደሌ ቢራ"
-          },
-          {
-                    "name": "Double Draft",
-                    "price": "250.00",
-                    "description": "",
-                    "name_ar": "دبل درافت",
-                    "name_zh": "大杯生啤",
-                    "name_fr": "Double Pression",
-                    "name_am": "ደብል ድራፍት"
-          },
-          {
-                    "name": "Single Draft",
-                    "price": "150.00",
-                    "description": "",
-                    "name_ar": "سنجል ድራፍት",
-                    "name_zh": "小杯生啤",
-                    "name_fr": "Pression Simple",
-                    "name_am": "ሲንግል ድራፍት"
-          },
-          {
-                    "name": "Local beer",
-                    "price": "200.00",
-                    "description": "",
-                    "name_am": "የአካባቢ ቢራ",
-                    "name_fr": "Bière locale",
-                    "name_zh": "当地啤酒",
-                    "name_ar": "بيرة محلية"
-          },
-          {
-                    "name": "Arada Beer",
-                    "price": "250.00",
-                    "description": "",
-                    "name_ar": "أرادا بيرة",
-                    "name_zh": "阿拉达啤酒",
-                    "name_fr": "Bière Arada",
-                    "name_am": "አራዳ ቢራ"
-          },
-          {
-                    "name": "Red Bull",
-                    "price": "900.00",
-                    "description": "",
-                    "name_fr": "Taureau Rouge",
-                    "name_zh": "红牛",
-                    "name_ar": "ريد بول",
-                    "name_am": "ቀይ ቡል"
-          }
-],
+            {
+                "name": "Heineken Beer",
+                "price": "250.00",
+                "description": "",
+                "name_zh": "喜力啤酒",
+                "name_ar": "بيرة هاينكن",
+                "name_fr": "Bière Heineken",
+                "name_am": "ሄኒከን ቢራ"
+            },
+            {
+                "name": "Bedele Beer",
+                "price": "250.00",
+                "description": "",
+                "name_fr": "Bière Bedélé",
+                "name_ar": "بيرة بيديلي",
+                "name_zh": "比德勒啤酒",
+                "name_am": "በደሌ ቢራ"
+            },
+            {
+                "name": "Double Draft",
+                "price": "250.00",
+                "description": "",
+                "name_ar": "دبل درافت",
+                "name_zh": "大杯生啤",
+                "name_fr": "Double Pression",
+                "name_am": "ደብል ድራፍት"
+            },
+            {
+                "name": "Single Draft",
+                "price": "150.00",
+                "description": "",
+                "name_ar": "سنجል ድራፍት",
+                "name_zh": "小杯生啤",
+                "name_fr": "Pression Simple",
+                "name_am": "ሲንግል ድራፍት"
+            },
+            {
+                "name": "Local beer",
+                "price": "200.00",
+                "description": "",
+                "name_am": "የአካባቢ ቢራ",
+                "name_fr": "Bière locale",
+                "name_zh": "当地啤酒",
+                "name_ar": "بيرة محلية"
+            },
+            {
+                "name": "Arada Beer",
+                "price": "250.00",
+                "description": "",
+                "name_ar": "أرادا بيرة",
+                "name_zh": "阿拉达啤酒",
+                "name_fr": "Bière Arada",
+                "name_am": "አራዳ ቢራ"
+            },
+            {
+                "name": "Red Bull",
+                "price": "900.00",
+                "description": "",
+                "name_fr": "Taureau Rouge",
+                "name_zh": "红牛",
+                "name_ar": "ريد بول",
+                "name_am": "ቀይ ቡል"
+            }
+        ],
         "title_ar": "البيرة المعبأة في زجاجات",
         "title_am": "የቢራ ጠርሙስ",
         "subtitle_ar": "قائمة طعام",
