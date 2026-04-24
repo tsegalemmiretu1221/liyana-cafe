@@ -3,19 +3,19 @@ import React from 'react';
 const ImportantInfo = ({ language }) => {
     const t = {
         allergy: {
-            en: 'If you or any of your guests have an allergy or dietary restriction, please inform your waiter and our chefs will be happy to accommodate your needs.',
-            am: 'እርሶ ወይም ከእርሶ ጋር ያለ ሰው የአለርጂ ችግር ካለባችሁ እባክዎን አስተናጋጁን ያሳውቁ እና ሼፎቻችን የእርስዎን ፍላጎት ለማሟላት ደስተኞች ይሆናሉ።',
-            zh: '如果您或您的任何客人有过敏或饮食限制，请告知您的服务员，我们的厨师将很乐意满足您的需求。',
-            ar: 'إذا كنت أنت أو أي من ضيوفك تعانون من حساسية أو قيود غذائية، يرجى إبلاغ النادل وسيسعد طهاتنا بتلبية احتياجاتك.',
-            fr: "Si vous ou l'un de vos invités avez une allergie ou une restriction alimentaire, veuillez en informer votre serveur et nos chefs se feront un plaisir de répondre à vos besoins."
-        }[language] || 'If you or any of your guests have an allergy or dietary restriction, please inform your waiter and our chefs will be happy to accommodate your needs.',
+            en: 'Please Inform the Servers For Any Allergies Or Vegan Preferences',
+            am: 'ለማንኛውም አለርጂ ወይም የቪጋን ምርጫዎች እባክዎ ለአስተናጋጆች ያሳውቁ',
+            zh: '如有任何过敏或素食偏好，请告知服务员',
+            ar: 'يرجى إبلاغ الخوادم بأي حساسية أو تفضيلات نباتية',
+            fr: 'Veuillez informer les serveurs de toute allergie ou préférence végétalienne'
+        }[language] || 'Please Inform the Servers For Any Allergies Or Vegan Preferences',
         vat: {
-            en: 'All prices include 10% service charge & 15% VAT',
+            en: 'All prices are inclusive of 10% service charge & 15% VAT',
             am: 'ሁሉም ዋጋዎች 10% የአገልግሎት ክፍያ እና 15% ቫት ያካተቱ ናቸው',
             zh: '所有价格均包含10%服务费及15%增值税',
             ar: 'جميع الأسعار تشمل 10% رسوم خدمة و15% ضريبة القيمة المضافة',
             fr: 'Tous les prix incluent 10% de frais de service et 15% de TVA'
-        }[language] || 'All prices include 10% service charge & 15% VAT',
+        }[language] || 'All prices are inclusive of 10% service charge & 15% VAT',
         currency: {
             en: 'All prices are in Ethiopian Birr',
             am: 'ሁሉም ዋጋዎች በኢትዮጵያ ብር ናቸው',
@@ -31,9 +31,9 @@ const ImportantInfo = ({ language }) => {
                 <div>
                     <div className="mb-4 flex justify-center">
                         <img
-                            src={`${import.meta.env.BASE_URL}images/alacarte_header.png`}
-                            alt="Alacarte Menu"
-                            className="h-28 w-auto object-contain mix-blend-multiply"
+                            src={`${import.meta.env.BASE_URL}images/liyana_menu_cover_clean.png`}
+                            alt="Liyana Coffee and Pastry Menu"
+                            className="w-[95%] max-w-[400px] h-auto object-contain mix-blend-multiply drop-shadow-sm"
                         />
                     </div>
                     <p className="text-xs text-slate-600 leading-relaxed font-medium">
@@ -42,15 +42,15 @@ const ImportantInfo = ({ language }) => {
                 </div>
 
                 <div className="pt-2 border-t border-amber-200">
-                    <h4 className="text-sm font-bold text-hotel-dark">Platinum Hotel</h4>
+                    <h4 className="text-sm font-bold text-hotel-dark">Liyana Coffee and Pastry</h4>
                     <p className="text-xs text-slate-600">Addis Ababa, Ethiopia</p>
                 </div>
 
                 <div className="pt-2 border-t border-amber-200 space-y-1">
-                    <p className="text-[11px] text-slate-600 font-bold uppercase tracking-wider">
+                    <p className="text-[11px] text-slate-600 font-bold tracking-wider">
                         {t.vat}
                     </p>
-                    <p className="text-[11px] text-slate-600 font-bold uppercase tracking-wider">
+                    <p className="text-[11px] text-slate-600 font-bold tracking-wider">
                         {t.currency}
                     </p>
                 </div>

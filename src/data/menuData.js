@@ -1309,70 +1309,70 @@ export const drinksData = [
         "headerImage": "/images/header_beer_bottled.png",
         "navImage": "",
         "items": [
-            {
-                "name": "Local Beer ",
-                "price": "200",
-                "description": "",
-                "name_fr": "Bière locale",
-                "name_zh": "当地啤酒",
-                "name_ar": "البيرة المحلية",
-                "name_am": "የአካባቢ ቢራ"
-            },
-            {
-                "name": "Heineken Beer ",
-                "price": "250",
-                "description": "",
-                "name_zh": "喜力啤酒",
-                "name_ar": "بيرة هاينكن",
-                "name_fr": "Bière Heineken",
-                "name_am": "ሄኒከን ቢራ"
-            },
-            {
-                "name": "Bedele Beer ",
-                "price": "250",
-                "description": "",
-                "name_fr": "Bière Bedélé",
-                "name_ar": "بيرة بيديلي",
-                "name_zh": "比德勒啤酒",
-                "name_am": "በደሌ ቢራ"
-            },
-            {
-                "name": "Double Draft",
-                "price": "250",
-                "description": "",
-                "name_ar": "دبل درافت",
-                "name_zh": "大杯生啤",
-                "name_fr": "Double Pression",
-                "name_am": "ደብል ድራፍት"
-            },
-            {
-                "name": "Single Draft",
-                "price": "150",
-                "description": "",
-                "name_ar": "سنجل درافت",
-                "name_zh": "小杯生啤",
-                "name_fr": "Pression Simple",
-                "name_am": "ሲንግል ድራፍት"
-            },
-            {
-                "name": "Arada Beer ",
-                "price": "250",
-                "description": "",
-                "name_ar": "أرادا بيرة",
-                "name_zh": "阿拉达啤酒",
-                "name_fr": "Bière Arada",
-                "name_am": "አራዳ ቢራ"
-            },
-            {
-                "name": "Red Bull",
-                "price": "900",
-                "description": "",
-                "name_fr": "Taureau Rouge",
-                "name_zh": "红牛",
-                "name_ar": "ريد بول",
-                "name_am": "ቀይ ቡል"
-            }
-        ],
+          {
+                    "name": "Heineken Beer",
+                    "price": "250.00",
+                    "description": "",
+                    "name_zh": "喜力啤酒",
+                    "name_ar": "بيرة هاينكن",
+                    "name_fr": "Bière Heineken",
+                    "name_am": "ሄኒከን ቢራ"
+          },
+          {
+                    "name": "Bedele Beer",
+                    "price": "250.00",
+                    "description": "",
+                    "name_fr": "Bière Bedélé",
+                    "name_ar": "بيرة بيديلي",
+                    "name_zh": "比德勒啤酒",
+                    "name_am": "በደሌ ቢራ"
+          },
+          {
+                    "name": "Double Draft",
+                    "price": "250.00",
+                    "description": "",
+                    "name_ar": "دبل درافت",
+                    "name_zh": "大杯生啤",
+                    "name_fr": "Double Pression",
+                    "name_am": "ደብል ድራፍት"
+          },
+          {
+                    "name": "Single Draft",
+                    "price": "150.00",
+                    "description": "",
+                    "name_ar": "سنجል ድራፍት",
+                    "name_zh": "小杯生啤",
+                    "name_fr": "Pression Simple",
+                    "name_am": "ሲንግል ድራፍት"
+          },
+          {
+                    "name": "Local beer",
+                    "price": "200.00",
+                    "description": "",
+                    "name_am": "የአካባቢ ቢራ",
+                    "name_fr": "Bière locale",
+                    "name_zh": "当地啤酒",
+                    "name_ar": "بيرة محلية"
+          },
+          {
+                    "name": "Arada Beer",
+                    "price": "250.00",
+                    "description": "",
+                    "name_ar": "أرادا بيرة",
+                    "name_zh": "阿拉达啤酒",
+                    "name_fr": "Bière Arada",
+                    "name_am": "አራዳ ቢራ"
+          },
+          {
+                    "name": "Red Bull",
+                    "price": "900.00",
+                    "description": "",
+                    "name_fr": "Taureau Rouge",
+                    "name_zh": "红牛",
+                    "name_ar": "ريد بول",
+                    "name_am": "ቀይ ቡል"
+          }
+],
         "title_ar": "البيرة المعبأة في زجاجات",
         "title_am": "የቢራ ጠርሙስ",
         "subtitle_ar": "قائمة طعام",
