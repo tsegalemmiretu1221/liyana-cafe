@@ -102,8 +102,8 @@ export const foodData = [
                 "description": "Tender beef with pepper, onion, tomato, and (Ethiopian traditional spice) serve with injera",
                 "name_am": "ጥብስ ፍርፍር",
                 "name_fr": "Tibs Firfr",
-                "name_zh": "提布斯菲尔菲尔",
-                "name_ar": "تيبس فيرفير"
+                "name_zh": "提布ስ菲尔菲尔",
+                "name_ar": "تيبስ فيرفير"
             },
             {
                 "name": "Fasting Firfr",
@@ -127,7 +127,7 @@ export const foodData = [
     {
         "id": "burger-sandwich-snacks",
         "title": "Burger & Snacks",
-        "subtitle": "Sandwiches",
+        "subtitle": "Sandwiches menu",
         "headerImage": "/images/header_sandwiches_d2.png",
         "navImage": "/images/nav_burger_snacks.png",
         "items": [
@@ -138,7 +138,7 @@ export const foodData = [
                 "name_am": "የዶሮ ጥቅል",
                 "name_ar": "راب دجاج",
                 "name_fr": "Wrap au poulet",
-                "description_ar": "دجاج ملفوف في خبز التورتيلا مع جبنة الموزاريلا المبشورة والفلفل الحار ويقدم مع الجواكامولي والقشدة الحامضة.",
+                "description_ar": "دجاج ملفوف في خبዝ التورتيلا مع جبنة الموزاريلا المبشورة والفلفል الحار ويقدم مع الجواكامولي والقشدة الحامضة.",
                 "name_zh": "鸡肉卷",
                 "description_fr": "Poulet enveloppé dans notre tortilla saupoudré de fromage Mozzarella râpé, de piment fort et servi avec du guacamole et de la crème sure.",
                 "description_zh": "鸡肉裹在玉米饼里，撒上磨碎的马苏里拉奶酪、辣椒，配上鳄梨酱和酸奶油。",
@@ -151,11 +151,24 @@ export const foodData = [
                 "name_ar": "ساندويتش تونة",
                 "name_am": "ቱና ሳንድዊች",
                 "name_zh": "金枪鱼三明治",
-                "description_ar": "قطعة تونة مع البصل، الطماطم، مغطاة بالجبنة الذائبة على خبز باجيت و بطاطا مقلية.",
-                "description_zh": "金枪鱼块撒上洋葱、西红柿，上面撒上融化的奶酪，放在长棍面包和炸薯条上。",
+                "description_ar": "قطعة تونة مع البصل، الطማطم፣ مغطاة بالجبنة الذائبة على خبز باجيت و بطاطا مقلية.",
+                "description_zh": "金枪鱼块撒上洋葱、西红柿，上面撒上融化的奶酪，放在长棍面包 and 炸薯条上。",
                 "name_fr": "Sandwich au thon",
                 "description_am": "የቱና ቁርጥራጭ በሽንኩርት ፣ ቲማቲሞች ፣ ከተቀላቀለ አይብ ጋር በባጊት ዳቦ እና በፈረንሳይ ጥብስ።",
                 "description_fr": "Morceau de thon mélangé avec des oignons, des tomates, garni de fromage fondu sur du pain baguette et des frites."
+            },
+            {
+                "name": "Beef filet Sandwich",
+                "price": "820.00",
+                "description": "A juicy lightly grilled crispy Beef filet with cheese and crunchy lettuce, tomato, mayonnaise and the perfect all on a toasted bun",
+                "name_ar": "ساندويتش لحم فيليه",
+                "name_fr": "Sandwich au filet de boeuf",
+                "name_am": "የበሬ ሥጋ ፋይል ሳንድዊች",
+                "name_zh": "菲力牛排三明治",
+                "description_fr": "Un filet de bœuf croustillant légèrement grilled avec du fromage et de la laitue croquante, de la tomato, de la mayonnaise et le tout parfait sur un petit pain grillé.",
+                "description_ar": "فيليه لحم بقري مقرمش مشوي قليلاً مع الجبن والخس المقرمش والطماطم والمايونيز والخبز المحمص.",
+                "description_zh": "多汁的轻烤酥脆牛里脊配上奶酪和松脆的生菜、番茄、蛋黄酱，完美地搭配烤面包。",
+                "description_am": "በቀላል የተጠበሰ የበሬ ሥጋ ከቺዝ እና ክራንክ ሰላጣ፣ ቲማቲም፣ ማዮኔዝ እና ፍጹም ሁሉም የተጠበሰ ዳቦ ላይ።"
             },
             {
                 "name": "Special Burger",
@@ -163,11 +176,11 @@ export const foodData = [
                 "description": "160 gm. Grilled minced beef, topped with your choice of Cheese, egg, & chili, served with French fires",
                 "name_zh": "特色汉堡",
                 "name_ar": "برجر خاص",
-                "name_am": "ስፔሻል በርገር",
-                "description_ar": "160 جم. لحم بقري مفروم مشوي، مغطى باختيارك من الجبن، البيض، والفلفل الحار، يقدم على نار فرنسية.",
+                "name_am": "ልዩ በርገር",
+                "description_ar": "160 جم. لحم بقري مفروم مشوي، مغطى باختيارك من الجبن፣ البيض፣ والفلفل الحار፣ يقدم على نار فرنسية.",
                 "name_fr": "Burger spécial",
                 "description_zh": "160 克。烤牛肉末，配以您选择的奶酪、鸡蛋和辣椒，配上法式火。",
-                "description_fr": "160 grammes. Bœuf haché grillé, garni de votre choix de fromage, œuf et piment, servi avec des feux français.",
+                "description_fr": "160 grammes. Bœuf haché grillé, garni de votre choix de fromage, œuf et piment, servi with des feux français.",
                 "description_am": "160 ግራም. የተጠበሰ የበሬ ሥጋ፣ በመረጡት አይብ፣ እንቁላል እና ቃሪያ የተሞላ፣ በፈረንሳይ እሳት የቀረበ።"
             },
             {
@@ -180,7 +193,7 @@ export const foodData = [
                 "name_am": "የበሬ ሥጋ በርገር",
                 "description_zh": "牛肉末、蛋黄酱、洋葱、番茄、生菜",
                 "description_fr": "Bœuf haché, mayonnaise, oignon, tomate, laitue",
-                "description_ar": "لحم بقري مفروم، مايونيز، بصل، طماطم، خس",
+                "description_ar": "لحم بقري مفروم، مايونيز፣ بصل፣ طማطم፣ خس",
                 "description_am": "የተቀቀለ የበሬ ሥጋ ፣ ማይኒዝ ፣ ሽንኩርት ፣ ቲማቲም ፣ ሰላጣ"
             },
             {
@@ -188,8 +201,8 @@ export const foodData = [
                 "price": "680.00",
                 "description": "Minced beef, cheese, mayonnaise, onion, tomato, lettuce",
                 "name_ar": "برجر بالجبنة",
-                "name_am": "ቺዝ በርገር",
-                "description_ar": "لحم بقري مفروم، جبنة، مايونيز، بصل، طماطم، خس.",
+                "name_am": "አይብ በርገር",
+                "description_ar": "لحم بقري مفروم، جبنة፣ مايونيز፣ بصل፣ طማطم፣ خس.",
                 "name_fr": "Burger au Fromage",
                 "name_zh": "芝士汉堡",
                 "description_fr": "Bœuf haché, fromage, mayonnaise, oignon, tomate, laitue.",
@@ -230,7 +243,7 @@ export const foodData = [
                 "name_ar": "سمبوسة العدس",
                 "name_zh": "扁豆桑布萨",
                 "description_fr": "Farine Blanche Sel Huile oignon vert Chili Poireaux Ail & Linteau Entier.",
-                "description_ar": "دقيق أبيض، ملح، زيت، بصل أخضر، كراث تشيلي، ثوم، عتب كامل.",
+                "description_ar": "دقيق أبيض، ملح፣ زيت፣ بصل أخضر، كراث تشيلي، ثوم، عتب كامل.",
                 "name_am": "ምስር ሳምቡሳ",
                 "description_zh": "白面粉盐油洋葱绿色智利韭菜大蒜和整个门楣。",
                 "description_am": "ነጭ የዱቄት ጨው ዘይት ቀይ ሽንኩርት አረንጓዴ የቺሊ ሊክ ነጭ ሽንኩርት እና ሙሉ ሊንቴል."
@@ -240,7 +253,7 @@ export const foodData = [
                 "price": "180.00",
                 "description": "White Flour Salt Oil Carrot Cabbage &Green beans",
                 "name_fr": "Rouleau de printemps",
-                "name_am": "ስፕሪንግ ሮል",
+                "name_am": "የፀደይ ጥቅል",
                 "description_fr": "Farine blanche Sel Huile Carotte Chou & Haricots verts.",
                 "name_zh": "春卷",
                 "description_am": "ነጭ የዱቄት ጨው ዘይት ካሮት እና አረንጓዴ ባቄላ።",
@@ -255,10 +268,10 @@ export const foodData = [
                 "name_fr": "Sandwich au poulet",
                 "name_ar": "ساندويتش دجاج",
                 "name_zh": "鸡肉三明治",
-                "description_ar": "دجاج، بصل، طماطم، فلفل حار، مايونيز",
+                "description_ar": "دجاج፣ በቆሎ፣ ቲማቲም፣ ቺሊ፣ ማዮኔዝ",
                 "name_am": "የዶሮ ሳንድዊች",
                 "description_zh": "鸡肉、洋葱、番茄、辣椒、蛋黄酱",
-                "description_fr": "Poulet, oignon, tomate, chili, mayonnaise",
+                "description_fr": "Poulet, oignon, tomato, chili, mayonnaise",
                 "description_am": "ዶሮ, ሽንኩርት, ቲማቲም, ቺሊ, ማዮኔዝ"
             },
             {
@@ -272,32 +285,19 @@ export const foodData = [
                 "description": "Beef, mayonnaise, onion, tomato, lettuce"
             },
             {
-                "name": "Beef filet Sandwich",
-                "price": "820.00",
-                "description": "A juicy lightly grilled crispy Beef filet with cheese and crunchy lettuce, tomato, mayonnaise and the perfect all on a toasted bun",
-                "name_ar": "ساندويتش لحم فيليه",
-                "name_fr": "Sandwich au filet de boeuf",
-                "name_am": "የበሬ ሥጋ ፋይል ሳንድዊች",
-                "name_zh": "菲力牛排三明治",
-                "description_fr": "Un filet de bœuf croustillant légèrement grillé avec du fromage et de la laitue croquante, de la tomate, de la mayonnaise et le tout parfait sur un petit pain grillé.",
-                "description_ar": "فيليه لحم بقري مقرمش مشوي قليلاً مع الجبن والخس المقرمش والطماطم والمايونيز والخبز المحمص.",
-                "description_zh": "多汁的轻烤酥脆牛里脊配上奶酪和松脆的生菜、番茄、蛋黄酱，完美地搭配烤面包。",
-                "description_am": "በቀላል የተጠበሰ የበሬ ሥጋ ከቺዝ እና ክራንክ ሰላጣ፣ ቲማቲም፣ ማዮኔዝ እና ፍጹም ሁሉም የተጠበሰ ዳቦ ላይ።"
-            },
-            {
                 "name": "Croissant Sandwich",
                 "price": "330.00",
                 "description": "Croissant, Onion, Egg, Salad, Mayonnaise"
             }
         ],
         "title_ar": "برجر ووجبات خفيفة",
-        "subtitle_ar": "السندويشات",
+        "subtitle_ar": "قائمة طعام",
         "title_zh": "汉堡和零食",
         "title_fr": "Burgers et collations",
-        "subtitle_fr": "Sandwichs",
-        "subtitle_zh": "三明治",
+        "subtitle_fr": "Menu",
+        "subtitle_zh": "菜单",
         "title_am": "በርገር እና መክሰስ",
-        "subtitle_am": "ሳንድዊቾች"
+        "subtitle_am": "ምናሌ"
     },
     {
         "id": "extra-and-others",
@@ -305,7 +305,96 @@ export const foodData = [
         "subtitle": "Extras",
         "headerImage": "/images/header_sharing.png",
         "navImage": "/images/nav_side_dishes.png",
-        "items": [],
+        "items": [
+            {
+                "name": "Extra Olive Oil",
+                "price": "150.00",
+                "name_am": "ተጨማሪ የወይራ ዘይት",
+                "name_ar": "زيت زيتون إضافي",
+                "name_fr": "Huile d'olive supplémentaire",
+                "name_zh": "额外橄榄油"
+            },
+            {
+                "name": "Extra Cheese",
+                "price": "100.00",
+                "name_am": "ተጨማሪ አይብ",
+                "name_ar": "جبنة إضافية",
+                "name_fr": "Fromage supplémentaire",
+                "name_zh": "额外芝士"
+            },
+            {
+                "name": "Extra Injera",
+                "price": "25.00",
+                "name_am": "ተጨማሪ እንጀራ",
+                "name_ar": "إنجيرا إضافية",
+                "name_fr": "Injera supplémentaire",
+                "name_zh": "额外英杰拉"
+            },
+            {
+                "name": "Extra Egg",
+                "price": "50.00",
+                "name_am": "ተጨማሪ እንቁላል",
+                "name_ar": "بيضة إضافية",
+                "name_fr": "Œuf supplémentaire",
+                "name_zh": "额外鸡蛋"
+            },
+            {
+                "name": "Extra Honey",
+                "price": "30.00",
+                "name_am": "ተጨማሪ ማር",
+                "name_ar": "عسل إضافي",
+                "name_fr": "Miel supplémentaire",
+                "name_zh": "额外蜂蜜"
+            },
+            {
+                "name": "Extra Tuna",
+                "price": "150.00",
+                "name_am": "ተጨማሪ ቱና",
+                "name_ar": "تونة إضافية",
+                "name_fr": "Thon supplémentaire",
+                "name_zh": "额外金枪鱼"
+            },
+            {
+                "name": "Extra Bread",
+                "price": "15.00",
+                "name_am": "ተጨማሪ ዳቦ",
+                "name_ar": "خبز إضافي",
+                "name_fr": "Pain supplémentaire",
+                "name_zh": "额外面包"
+            },
+            {
+                "name": "Extra Yogurt",
+                "price": "25.00",
+                "name_am": "ተጨማሪ እርጎ",
+                "name_ar": "زبادي إضافي",
+                "name_fr": "Yaourt supplémentaire",
+                "name_zh": "额外酸奶"
+            },
+            {
+                "name": "Takeaway Box",
+                "price": "50.00",
+                "name_am": "የምግብ መያዣ ሳጥን",
+                "name_ar": "علبة سفري",
+                "name_fr": "Boîte à emporter",
+                "name_zh": "打包盒"
+            },
+            {
+                "name": "Juice Cup",
+                "price": "25.00",
+                "name_am": "የጭማቂ ኩባያ",
+                "name_ar": "كوب عصير",
+                "name_fr": "Coupe de jus",
+                "name_zh": "果汁杯"
+            },
+            {
+                "name": "Takeaway Coffee Cup",
+                "price": "25.00",
+                "name_am": "የቡና ኩባያ",
+                "name_ar": "كوب قهوة سفሪ",
+                "name_fr": "Tasse de café à emporter",
+                "name_zh": "打包咖啡杯"
+            }
+        ],
         "title_am": "ተጨማሪ እና ሌሎች",
         "subtitle_am": "ተጨማሪ",
         "title_zh": "额外及其他",
@@ -319,320 +408,256 @@ export const foodData = [
 
 export const drinksData = [
     {
-        "id": "fresh-juice-smoothie",
-        "title": "FRESH JUICE & SMOOTHIE",
+        "id": "hot-beverage",
+        "title": "HOT BEVERAGE",
         "subtitle": "Menu",
-        "headerImage": "/images/header_juices.png",
+        "headerImage": "/images/header_hot_beverages.png",
         "navImage": "",
         "items": [
             {
-                "name": "Seasonal Fruit punch",
+                "name": "Coffee",
+                "price": "120.00",
+                "name_am": "ቡና",
+                "name_ar": "قهوة",
+                "name_fr": "Café",
+                "name_zh": "咖啡"
+            },
+            {
+                "name": "American Coffee",
+                "price": "120.00",
+                "name_am": "አሜሪካን ቡና",
+                "name_ar": "قهوة أمريكية",
+                "name_fr": "Café américain",
+                "name_zh": "美式咖啡"
+            },
+            {
+                "name": "Espresso",
+                "price": "120.00",
+                "name_am": "ኤስፕሬሶ",
+                "name_ar": "إسبريسو",
+                "name_fr": "Expresso",
+                "name_zh": "浓缩咖啡"
+            },
+            {
+                "name": "Double Espresso",
+                "price": "145.00",
+                "name_am": "ደብል ኤስፕሬሶ",
+                "name_ar": "إسبريسو مزدوج",
+                "name_fr": "Double expresso",
+                "name_zh": "双倍浓缩咖啡"
+            },
+            {
+                "name": "Iced Coffee",
+                "price": "130.00",
+                "name_am": "አይስ ኮፊ",
+                "name_ar": "قهوة مثلجة",
+                "name_fr": "Café glacé",
+                "name_zh": "冰咖啡"
+            },
+            {
+                "name": "Peanut tea",
+                "price": "130.00",
+                "name_am": "የለውዝ ሻይ",
+                "name_ar": "شاي الفول السوداني",
+                "name_fr": "Thé à l'arachide",
+                "name_zh": "花生茶"
+            },
+            {
+                "name": "Traditional Coffee",
+                "price": "120.00",
+                "name_am": "የባህል ቡና",
+                "name_ar": "قهوة تقليدية",
+                "name_fr": "Café traditionnel",
+                "name_zh": "传统咖啡"
+            },
+            {
+                "name": "Milk",
+                "price": "140.00",
+                "name_am": "ወተት",
+                "name_ar": "حليب",
+                "name_fr": "Lait",
+                "name_zh": "牛奶"
+            },
+            {
+                "name": "Café Late",
+                "price": "170.00",
+                "name_am": "ካፌ ላቴ",
+                "name_ar": "كافيه لاتيه",
+                "name_fr": "Café Latte",
+                "name_zh": "拿铁咖啡"
+            },
+            {
+                "name": "Macchiato Single",
+                "price": "150.00",
+                "name_am": "ማኪያቶ ሲንግል",
+                "name_ar": "ماكياتو سنجል",
+                "name_fr": "Macchiato simple",
+                "name_zh": "单份玛奇朵"
+            },
+            {
+                "name": "Macchiato double",
+                "price": "170.00",
+                "name_am": "ማኪያቶ ደብል",
+                "name_ar": "ماكياتو دبل",
+                "name_fr": "Macchiato double",
+                "name_zh": "双份玛奇朵"
+            },
+            {
+                "name": "Caramel Macchiato",
+                "price": "160.00",
+                "name_am": "ካራሚል ማኪያቶ",
+                "name_ar": "كرامل ماكياتو",
+                "name_fr": "Caramel Macchiato",
+                "name_zh": "焦糖玛奇朵"
+            },
+            {
+                "name": "Fasting Macchiato",
+                "price": "210.00",
+                "name_am": "የፆም ማኪያቶ",
+                "name_ar": "ماكياتو صيام",
+                "name_fr": "Macchiato de jeûne",
+                "name_zh": "斋戒玛奇朵"
+            },
+            {
+                "name": "Hot Chocolate",
                 "price": "250.00",
-                "description": "Seasonal Fresh Fruit with your choice.",
-                "name_ar": "لكمة الفاكهة الموسمية",
-                "name_fr": "Punch aux fruits de saison",
-                "name_zh": "时令水果潘趣酒",
-                "description_ar": "فواكه موسمية طازجة مع اختيارك.",
-                "description_zh": "时令新鲜水果任您选择。",
-                "description_fr": "Fruits frais de saison au choix.",
-                "name_am": "የፍራፍሬ ፐንች",
-                "description_am": "ወቅታዊ ትኩስ ፍሬ ከምርጫዎ ጋር።"
+                "name_am": "ሆት ቸኮሌት",
+                "name_ar": "شوكولاتة ساخنة",
+                "name_fr": "Chocolat chaud",
+                "name_zh": "热巧克力"
             },
             {
-                "name": "Shake Mixed",
-                "price": "420.00",
-                "description": "Banana Strawberry Avocado Milk Chocolate Vanilla & Sugar.",
-                "name_ar": "ميلك شيك مشكل",
-                "name_fr": "Milkshake Mixte",
-                "name_zh": "混合奶昔",
-                "description_ar": "موز فراولة افوكادو حليب شوكولاتة فانيليا وسكر.",
-                "description_fr": "Banane Fraise Avocat Chocolat au Lait Vanille & Sucre.",
-                "description_zh": "香蕉草莓鳄梨牛奶巧克力香草和糖。",
-                "name_am": "ሚክስድ ሼክ",
-                "description_am": "ሙዝ እንጆሪ አቮካዶ ወተት ቸኮሌት ቫኒላ እና ስኳር."
+                "name": "Cappuccino",
+                "price": "270.00",
+                "name_am": "ካፑቺኖ",
+                "name_ar": "كابتشينو",
+                "name_fr": "Cappuccino",
+                "name_zh": "卡布奇诺"
             },
             {
-                "name": "Carrot Glow Smoothie",
+                "name": "Tea",
+                "price": "80.00",
+                "name_am": "ሻይ",
+                "name_ar": "شاي",
+                "name_fr": "Thé",
+                "name_zh": "茶"
+            },
+            {
+                "name": "Flavor tea",
+                "price": "100.00",
+                "name_am": "ፍሌቨር ሻይ",
+                "name_ar": "شاي منكه",
+                "name_fr": "Thé aromatisé",
+                "name_zh": "调味茶"
+            },
+            {
+                "name": "Tea with Coffee",
+                "price": "100.00",
+                "name_am": "ሻይ በቡና",
+                "name_ar": "شاي بالقهوة",
+                "name_fr": "Thé au café",
+                "name_zh": "茶配咖啡"
+            },
+            {
+                "name": "Ginger Tea",
+                "price": "80.00",
+                "name_am": "የዝንጅብል ሻይ",
+                "name_ar": "شاي بالزنجبيل",
+                "name_fr": "Thé au gingembre",
+                "name_zh": "姜茶"
+            },
+            {
+                "name": "Special Tea",
                 "price": "250.00",
-                "description": "Carrot, mango, turmeric powder and milk.",
-                "name_ar": "عصير الجزرة الوهج",
-                "name_fr": "Smoothie éclat aux carottes",
-                "name_zh": "胡萝卜发光冰沙",
-                "description_ar": "جزر، مانجو، مسحوق كركم وحليب.",
-                "description_zh": "胡萝卜、芒果、姜黄粉和牛奶。",
-                "description_fr": "Carotte, mangue, poudre de curcuma et lait.",
-                "name_am": "የካሮት ስሙዚ",
-                "description_am": "ካሮት, ማንጎ, የቱሪሚክ ዱቄት እና ወተት."
+                "name_am": "ስፔሻል ሻይ",
+                "name_ar": "شاي خاص",
+                "name_fr": "Thé spécial",
+                "name_zh": "特色茶"
             },
             {
-                "name": "Berry Smoothie",
-                "price": "250.00",
-                "description": "Strawberry, flaxseed, honey and Milk.",
-                "name_zh": "浆果冰沙",
-                "description_zh": "草莓、亚麻籽、蜂蜜和牛奶。",
-                "name_ar": "عصير بيري",
-                "name_fr": "Smoothie aux baies",
-                "description_ar": "فراولة، بذور الكتان، عسل وحليب.",
-                "name_am": "የቤሪ ስሙዚ",
-                "description_fr": "Fraise, graines de lin, miel et lait.",
-                "description_am": "እንጆሪ, ተልባ, ማር እና ወተት."
+                "name": "Iced Caramel latte",
+                "price": "180.00",
+                "name_am": "አይስ ካራሚል ላቴ",
+                "name_ar": "آيس كراميل لاتيه",
+                "name_fr": "Latte au caramel glacé",
+                "name_zh": "冰焦糖拿铁"
             },
             {
-                "name": "Mixed juice",
-                "price": "350.00",
-                "description": "Papaya Orange fruit Avocado Lemon & Sugar.",
-                "name_zh": "混合果汁",
-                "description_zh": "木瓜、橙子、鳄梨、柠檬和糖。",
-                "name_ar": "عصير مختلط",
-                "name_fr": "Jus mélangé",
-                "description_ar": "البابايا فاكهة البرتقال الأفوكادو الليمون والسكر.",
-                "name_am": "የተቀላቀለ ጭማቂ",
-                "description_fr": "Papaye Orange fruit Avocat Citron & Sucre.",
-                "description_am": "ፓፓያ ብርቱካን ፍሬ አቮካዶ ሎሚ እና ስኳር።"
+                "name": "Iced Late",
+                "price": "150.00",
+                "name_am": "አይስ ላቴ",
+                "name_ar": "آيس لاتيه",
+                "name_fr": "Latte glacé",
+                "name_zh": "冰拿铁"
             },
             {
-                "name": "Papaya juice",
-                "price": "250.00",
-                "description": "Papaya fruit Lemon & Sugar.",
-                "name_am": "የፓፓያ ጭማቂ",
-                "name_zh": "木瓜汁",
-                "description_zh": "木瓜果柠檬和糖。",
-                "name_ar": "عصير البابايا",
-                "name_fr": "Jus de papaye",
-                "description_ar": "فاكهة البابايا والليمون والسكر.",
-                "description_am": "የፓፓያ ፍሬ ሎሚ እና ስኳር።",
-                "description_fr": "Papaye Citron & Sucre."
-            },
-            {
-                "name": "Pineapple juice",
-                "price": "250.00",
-                "description": "Pineapple fruit Lemon & Sugar.",
-                "name_fr": "Jus d'ananas",
-                "name_ar": "عصير اناناس",
-                "description_ar": "فاكهة الأناناس والليمون والسكر.",
-                "description_fr": "Ananas Citron & Sucre.",
-                "name_am": "አናናስ ጭማቂ",
-                "name_zh": "菠萝汁",
-                "description_zh": "菠萝果柠檬和糖。",
-                "description_am": "አናናስ ፍሬ ሎሚ እና ስኳር።"
-            },
-            {
-                "name": "Avocado juice",
-                "price": "300.00",
-                "description": "Avocado Lemon & Sugar.",
-                "name_fr": "Jus d'avocat",
-                "name_am": "የአቮካዶ ጭማቂ",
-                "name_ar": "عصير افوكادو",
-                "description_fr": "Avocat Citron & Sucre.",
-                "description_ar": "الأفوكادو والليمون والسكر.",
-                "description_am": "አቮካዶ ሎሚ እና ስኳር.",
-                "name_zh": "鳄梨汁",
-                "description_zh": "鳄梨柠檬和糖。"
-            },
-            {
-                "name": "Strawberry juice",
-                "price": "350.00",
-                "description": "Strawberry fruit Lemon & Sugar.",
-                "name_zh": "草莓汁",
-                "name_fr": "Jus de fraise",
-                "name_ar": "عصير فراولة",
-                "description_ar": "فاكهة الفراولة والليمون والسكر.",
-                "description_zh": "草莓果柠檬和糖。",
-                "name_am": "እንጆሪ ጭማቂ",
-                "description_fr": "Fraise Citron & Sucre.",
-                "description_am": "እንጆሪ ፍሬ ሎሚ እና ስኳር."
-            },
-            {
-                "name": "Banana Milk Shake",
-                "price": "350.00",
-                "description": "Banana Milk Vanilla & Sugar.",
-                "name_ar": "حليب الموز",
-                "name_fr": "Milk-shake à la banane",
-                "name_zh": "香蕉奶昔",
-                "name_am": "የሙዝ ወተት መንቀጥቀጥ",
-                "description_fr": "Lait de Banane Vanille & Sucre.",
-                "description_ar": "موز حليب فانيليا و سكر.",
-                "description_zh": "香蕉牛奶香草和糖。",
-                "description_am": "የሙዝ ወተት ቫኒላ እና ስኳር."
-            },
-            {
-                "name": "Strawberry milk shake",
-                "price": "400.00",
-                "description": "Strawberry Milk Vanilla & Sugar",
-                "name_ar": "مخفوق الحليب بالفراولة",
-                "name_fr": "Milk-shake aux fraises",
-                "name_zh": "草莓奶昔",
-                "name_am": "እንጆሪ ወተት መንቀጥቀጥ",
-                "description_fr": "Fraise Lait Vanille & Sucre.",
-                "description_zh": "草莓牛奶香草和糖。",
-                "description_ar": "فراولة حليب فانيليا و سكر.",
-                "description_am": "እንጆሪ ወተት ቫኒላ እና ስኳር."
-            },
-            {
-                "name": "Avocado milk shake",
-                "price": "350.00",
-                "description": "Avocado Milk & Sugar",
-                "name_ar": "مخفوق الحليب بالأفوكادو",
-                "name_fr": "Milk-shake à l'avocat",
-                "name_zh": "鳄梨奶昔",
-                "description_ar": "الأفوكادو الحليب والسكر.",
-                "description_fr": "Lait d'avocat et sucre.",
-                "description_zh": "鳄梨牛奶和糖。",
-                "name_am": "የአቮካዶ ወተት መንቀጥቀጥ",
-                "description_am": "የአቮካዶ ወተት እና ስኳር."
-            },
-            {
-                "name": "Beetroot Smoothie",
-                "price": "250.00",
-                "description": "Beetroot, honey and Milk.",
-                "name_ar": "عصير الشمندر",
-                "name_am": "የቀይ ስር ስሙዚ",
-                "name_zh": "甜菜根冰沙",
-                "name_fr": "Smoothie à la betterave",
-                "description_ar": "شمندر، عسل و حليب.",
-                "description_fr": "Betterave, miel et lait.",
-                "description_zh": "甜菜根、蜂蜜和牛奶。",
-                "description_am": "ባቄላ ፣ ማር እና ወተት።"
-            },
-            {
-                "name": "Green Detox Smoothie",
-                "price": "250.00",
-                "description": "Cucumber, spinach, lemon and ginger. Served with your choice of two accompaniments: (Thick fried potato, Garlic mashed potato, Steamed vegetable, Sautéed kale, or Plain rice) and a choice of sauce: (Balsamic Dill, Pepper corn, Mushroom, Garlic butter, or Cream sauce).",
-                "name_ar": "عصير التخلص من السموم الأخضر",
-                "name_am": "ግሪን ዲቶክስ ስሙዚ",
-                "name_zh": "绿色排毒冰沙",
-                "name_fr": "Smoothie détox vert",
-                "description_ar": "خيار، سبانخ، ليمون وزنجبيل. يقدم مع اختيارك من اثنين من المرافقين: (بطاطس مقلية سميكة، بطاطس مهروسة بالثوم، خضار مطهوة على البخار، كرنب سوتيه، أو أرز عادي) واختيار من الصلصة: (شبت بلسمي، ذرة فلفل، فطر، زبدة ثوم، أو صلصة كريمة).",
-                "description_am": "ዱባ, ስፒናች, ሎሚ እና ዝንጅብል. ከሁለት አጃቢዎች ምርጫዎ ጋር ይቀርባል፡ (ወፍራም የተጠበሰ ድንች፣ ነጭ ሽንኩርት የተፈጨ ድንች፣ በእንፋሎት የተቀመመ አትክልት፣ የተጠበሰ ጎመን ወይም ሜዳ ሩዝ) እና የሾርባ ምርጫ፡ (የበለሳን ዲል፣ በርበሬ በቆሎ፣ እንጉዳይ፣ ነጭ ሽንኩርት ቅቤ ወይም ክሬም መረቅ)።",
-                "description_fr": "Concombre, épinards, citron et gingembre. Servi avec votre choix de deux accompagnements : (Pomme de terre frite épaisse, Purée de pomme de terre à l'ail, Légumes cuits à la vapeur, Chou frisé sauté ou Riz nature) et un choix de sauce : (Aneth balsamique, Maïs poivré, Champignon, Beurre à l'ail ou Sauce à la crème).",
-                "description_zh": "黄瓜、菠菜、柠檬和生姜。搭配您选择的两种配菜：（厚炸土豆、大蒜土豆泥、蒸蔬菜、炒羽衣甘蓝或白米饭）和一种选择的酱汁：（香醋莳萝、胡椒玉米、蘑菇、大蒜黄油或奶油酱）。"
-            },
-            {
-                "name": "Orange juice",
-                "price": "350.00",
-                "description": "Orange Fruit & sugar"
-            },
-            {
-                "name": "Watermelon juice",
-                "price": "250.00",
-                "description": "Watermelon & sugar"
+                "name": "Iced Tea",
+                "price": "100.00",
+                "name_am": "አይስ ሻይ",
+                "name_ar": "شاي مثلج",
+                "name_fr": "Thé glacé",
+                "name_zh": "冰茶"
             }
         ],
-        "title_ar": "عصير طازج وعصير",
+        "title_ar": "مشروبات ساخنة",
         "subtitle_ar": "قائمة طعام",
-        "title_am": "ትኩስ ጭማቂ እና ለስላሳ",
-        "title_zh": "新鲜果汁和冰沙",
+        "title_am": "ትኩስ መጠጦች",
+        "title_zh": "热饮",
         "subtitle_am": "ዝርዝር",
-        "title_fr": "JUS FRAIS ET SMOOTHIE",
+        "title_fr": "BOISSONS CHAUDES",
         "subtitle_zh": "菜单",
         "subtitle_fr": "Menu"
     },
     {
         "id": "beer",
-        "title": "Beer Bottled",
+        "title": "SOFT DRINK",
         "subtitle": "Menu",
-        "headerImage": "/images/header_beer_bottled.png",
+        "headerImage": "/images/header_soft_drinks_v2.png",
         "navImage": "",
         "items": [
             {
-                "name": "Heineken Beer",
-                "price": "250.00",
-                "description": "",
-                "name_zh": "喜力啤酒",
-                "name_ar": "بيرة هاينكن",
-                "name_fr": "Bière Heineken",
-                "name_am": "ሄኒከን ቢራ"
+                "name": "Ambo Water",
+                "price": "120.00",
+                "name_am": "አምቦ ውሃ",
+                "name_ar": "مياه امبو",
+                "name_fr": "Eau d'Ambo",
+                "name_zh": "安博水"
             },
             {
-                "name": "Bedele Beer",
-                "price": "250.00",
-                "description": "",
-                "name_fr": "Bière Bedélé",
-                "name_ar": "بيرة بيديلي",
-                "name_zh": "比德勒啤酒",
-                "name_am": "በደሌ ቢራ"
+                "name": "Soft drink",
+                "price": "120.00",
+                "name_am": "ለስላሳ መጠጥ",
+                "name_ar": "مشروب غازي",
+                "name_fr": "Boisson gazeuse",
+                "name_zh": "软饮料"
             },
             {
-                "name": "Double Draft",
-                "price": "250.00",
-                "description": "",
-                "name_ar": "دبل درافت",
-                "name_zh": "大杯生啤",
-                "name_fr": "Double Pression",
-                "name_am": "ደብል ድራፍት"
+                "name": "Water 1/2 Liter",
+                "price": "70.00",
+                "name_am": "ውሃ 1/2 ሊትር",
+                "name_ar": "ماء 1/2 لتر",
+                "name_fr": "Eau 1/2 Litre",
+                "name_zh": "水 1/2 升"
             },
             {
-                "name": "Single Draft",
-                "price": "150.00",
-                "description": "",
-                "name_ar": "سنجል ድራፍት",
-                "name_zh": "小杯生啤",
-                "name_fr": "Pression Simple",
-                "name_am": "ሲንግል ድራፍት"
-            },
-            {
-                "name": "Local beer",
-                "price": "200.00",
-                "description": "",
-                "name_am": "የአካባቢ ቢራ",
-                "name_fr": "Bière locale",
-                "name_zh": "当地啤酒",
-                "name_ar": "بيرة محلية"
-            },
-            {
-                "name": "Arada Beer",
-                "price": "250.00",
-                "description": "",
-                "name_ar": "أرادا بيرة",
-                "name_zh": "阿拉达啤酒",
-                "name_fr": "Bière Arada",
-                "name_am": "አራዳ ቢራ"
-            },
-            {
-                "name": "Red Bull",
-                "price": "900.00",
-                "description": "",
-                "name_fr": "Taureau Rouge",
-                "name_zh": "红牛",
-                "name_ar": "ريد بول",
-                "name_am": "ቀይ ቡል"
+                "name": "Water Medium 1 Liter",
+                "price": "120.00",
+                "name_am": "መካከለኛ ውሃ 1 ሊትር",
+                "name_ar": "ماء وسط 1 لتر",
+                "name_fr": "Eau moyenne 1 litre",
+                "name_zh": "水介质1升"
             }
         ],
-        "title_ar": "البيرة المعبأة في زجاجات",
-        "title_am": "የቢራ ጠርሙስ",
+        "title_ar": "مشروبات غازية",
+        "title_am": "ለስላሳ መጠጦች",
         "subtitle_ar": "قائمة طعام",
         "subtitle_am": "ዝርዝር",
-        "title_fr": "Bière en bouteille",
+        "title_fr": "BOISSONS GAZEUSES",
         "subtitle_fr": "Menu",
-        "title_zh": "瓶装啤酒",
+        "title_zh": "软饮料",
         "subtitle_zh": "菜单"
     },
-    {
-        "id": "soft-drinks",
-        "title": "Soft Drinks",
-        "subtitle": "Menu",
-        "headerImage": "/images/header_soft_drinks.png",
-        "navImage": "",
-        "items": [
-            {
-                "name": "Soft Drinks",
-                "price": "120",
-                "description": "",
-                "name_ar": "المشروبات الغازية",
-                "name_fr": "Boissons gazeuses",
-                "name_am": "ለስላሳ መጠጦች",
-                "name_zh": "软饮料"
-            }
-        ],
-        "title_zh": "软饮料",
-        "title_ar": "المشروبات الغازية",
-        "title_fr": "Boissons gazeuses",
-        "subtitle_zh": "菜单",
-        "subtitle_fr": "Menu",
-        "subtitle_ar": "قائمة طعام",
-        "title_am": "ለስላሳ መጠጦች",
-        "subtitle_am": "ዝርዝር"
-    },
+
     {
         "id": "mineral-water",
         "title": "Mineral Water ",
@@ -806,7 +831,7 @@ export const drinksData = [
                 "description": "",
                 "name_zh": "杰克丹尼 1 升",
                 "name_fr": "Jack Daniel 1 Lit",
-                "name_ar": "جاك دانيال 1 مضاءة",
+                "name_ar": "جاክ دانيال 1 مضاءة",
                 "name_am": "ጃክ ዳንኤል 1 ሊ"
             },
             {
@@ -919,7 +944,7 @@ export const drinksData = [
                 "name": "Beefeater 1 Lit",
                 "price": "11,500",
                 "description": "",
-                "name_ar": "لحم البقر 1 لتر",
+                "name_ar": "ቢፊተር 1 ሊት",
                 "name_fr": "Beefeater 1 Litre",
                 "name_zh": "必富达 1 升",
                 "name_am": "ቢፍኢተር 1 ሊት"
@@ -1026,7 +1051,7 @@ export const drinksData = [
                 "price": "18,000",
                 "description": "",
                 "name_fr": "Fernet Branca 1 Litre",
-                "name_ar": "فيرنيت برانكا 1 لتر",
+                "name_ar": "فيرنيት برانكا 1 لتر",
                 "name_zh": "费奈特布兰卡 1 升",
                 "name_am": "ፈርኔት ብራንካ 1 ሊት"
             },
@@ -1043,7 +1068,7 @@ export const drinksData = [
                 "name": "Martini Bianco 1 Lit",
                 "price": "14,500",
                 "description": "",
-                "name_ar": "مارتيني بيانكو 1 مضاءة",
+                "name_ar": "مارتيني بيانኮ 1 مضاءة",
                 "name_fr": "Martini Blanco 1 Litre",
                 "name_zh": "白马天尼 1 升",
                 "name_am": "ማርቲኒ ቢያንኮ 1 ሊ"
@@ -1087,7 +1112,7 @@ export const drinksData = [
                 "name": "Jack Daniel Shot",
                 "price": "600.00",
                 "description": "",
-                "name_zh": "杰克丹尼子弹",
+                "name_zh": "杰ክዳንኤል子弹",
                 "name_ar": "جاك دانيال شوت",
                 "name_fr": "Shot de Jack Daniel",
                 "name_am": "ጃክ ዳንኤል ሾት"
@@ -1161,7 +1186,7 @@ export const drinksData = [
                 "description": "",
                 "name_fr": "Shot de Fernet Branca",
                 "name_am": "ፈርኔት ብራንካ ሾት",
-                "name_ar": "فرنيت برانكا شوت",
+                "name_ar": "فرنيት برانكا شوت",
                 "name_zh": "阿根廷苦酒"
             },
             {
@@ -1289,7 +1314,7 @@ export const cocktailData = [
         "title": "Cocktails",
         "title_am": "ኮክቴሎች",
         "title_zh": "鸡尾酒",
-        "title_ar": "كوكتيلات",
+        "title_ar": "ኮክቴሎች",
         "title_fr": "Cocktails",
         "subtitle": "cocktails",
         "subtitle_am": "ዝርዝር",
@@ -1310,7 +1335,7 @@ export const cocktailData = [
                 "description_am": "1 አውንስ ኮይንትሬው፣ 1 አውንስ የሎሚ ጭማቂ፣ 2 አውንስ ተኪላ-",
                 "description_fr": "1 oz de Cointreau, 1 oz de jus de citron vert, 2 oz de Tequila-",
                 "description_zh": "1盎司君度橙酒，1盎司青柠汁，2盎司龙舌兰酒-",
-                "description_ar": "1 أونصة كوانترو، 1 أونصة عصير ليمون، 2 أونصة تيكيلا-"
+                "description_ar": "1 أونصة كوانترو، 1 أونصة عصير ليمون، 2 أونصة تيكيላ-"
             },
             {
                 "name": "Long Iceland",
@@ -1319,7 +1344,7 @@ export const cocktailData = [
                 "name_am": "ሎንግ አይስላንድ",
                 "name_fr": "Long Island",
                 "name_zh": "长岛冰茶",
-                "name_ar": "لونج آيسلاند",
+                "name_ar": "لونج አይስላንድ",
                 "description_am": "ዋናው አልኮል; ቮድካ፣ ጂን ተኪላ ሮም፣ ትሪፕል ሴክ 1 አውንስ፣ 1 አውንስ የሎሚ ጭማቂ፣ እና 1/2 አውንስ ጂን",
                 "description_fr": "Alcool principal ; vodka, gin, tequila, rhum, triple sec 1 oz, 1 oz de jus de citron, & 1/2 oz de gin",
                 "description_zh": "主要酒精；伏特加、金酒、龙舌兰、朗姆酒、1盎司君度、1盎司柠檬汁及1/2盎司金酒",
