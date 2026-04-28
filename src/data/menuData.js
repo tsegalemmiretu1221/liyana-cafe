@@ -74,7 +74,7 @@ export const foodData = [
                 "price": "600.00",
                 "description": "Dry beef with pepper, onion, tomato, boiled egg and (Ethiopian traditional spice) serve with injera",
                 "name_am": "ቋንጣ ፍርፍር",
-                "name_fr": "Quanta Firfr",
+                "name_fr": "Quanta Fir-Fir",
                 "name_zh": "干牛肉菲尔菲尔",
                 "name_ar": "كوانتا فيرفير"
             },
@@ -101,7 +101,7 @@ export const foodData = [
                 "price": "600.00",
                 "description": "Tender beef with pepper, onion, tomato, and (Ethiopian traditional spice) serve with injera",
                 "name_am": "ጥብስ ፍርፍር",
-                "name_fr": "Tibs Firfr",
+                "name_fr": "Tibs Fir-Fir",
                 "name_zh": "提布ስ菲尔菲尔",
                 "name_ar": "تيبስ فيرفير"
             },
@@ -278,16 +278,43 @@ export const foodData = [
                 "name": "Vegetable warp",
                 "price": "380.00",
                 "description": "Mixed cooked vegetable"
+            ,
+                "name_am": "የአትክልት ጥቅል",
+                "name_ar": "راب خضروات",
+                "name_zh": "蔬菜卷",
+                "name_fr": "Wrap aux légumes",
+                "description_am": "የተቀላቀሉ የበሰሉ አትክልቶች",
+                "description_ar": "خضروات مشكلة مطبوخة",
+                "description_zh": "混合煮熟的蔬菜",
+                "description_fr": "Légumes cuits assortis"
             },
             {
                 "name": "Beef warp",
                 "price": "620.00",
                 "description": "Beef, mayonnaise, onion, tomato, lettuce"
+            ,
+                "name_am": "የበሬ ሥጋ ጥቅል",
+                "name_ar": "راب لحم بقري",
+                "name_zh": "牛肉卷",
+                "name_fr": "Wrap au boeuf",
+                "description_am": "የበሬ ሥጋ፣ ማዮኔዝ፣ ሽንኩርት፣ ቲማቲም፣ ሰላጣ",
+                "description_ar": "لحم بقري، مايونيز، بصل، طماطم، خس",
+                "description_zh": "牛肉、蛋黄酱、洋葱、番茄、生菜",
+                "description_fr": "Bœuf, mayonnaise, oignon, tomate, laitue"
             },
             {
                 "name": "Croissant Sandwich",
                 "price": "330.00",
                 "description": "Croissant, Onion, Egg, Salad, Mayonnaise"
+            ,
+                "name_am": "ክሮይሰንት ሳንድዊች",
+                "name_ar": "ساندويتش كرواسون",
+                "name_zh": "牛角包三明治",
+                "name_fr": "Sandwich au croissant",
+                "description_am": "ክሮይሰንት፣ ሽንኩርት፣ እንቁላል፣ ሰላጣ፣ ማዮኔዝ",
+                "description_ar": "كرواسون، بصل، بيض، سلطة، مايونيز",
+                "description_zh": "牛角包、洋葱、鸡蛋、沙拉、蛋黄酱",
+                "description_fr": "Croissant, oignon, œuf, salade, mayonnaise"
             }
         ],
         "title_ar": "برجر ووجبات خفيفة",
@@ -434,7 +461,7 @@ export const drinksData = [
                 "name": "Espresso",
                 "price": "120.00",
                 "name_am": "ኤስፕሬሶ",
-                "name_ar": "إسبريسو",
+                "name_ar": "إስبريسو",
                 "name_fr": "Expresso",
                 "name_zh": "浓缩咖啡"
             },
@@ -442,7 +469,7 @@ export const drinksData = [
                 "name": "Double Espresso",
                 "price": "145.00",
                 "name_am": "ደብል ኤስፕሬሶ",
-                "name_ar": "إسبريسو مزدوج",
+                "name_ar": "إስبريسو مزدوج",
                 "name_fr": "Double expresso",
                 "name_zh": "双倍浓缩咖啡"
             },
@@ -490,9 +517,10 @@ export const drinksData = [
                 "name": "Macchiato Single",
                 "price": "150.00",
                 "name_am": "ማኪያቶ ሲንግል",
-                "name_ar": "ماكياتو سنجል",
+                "name_ar": "ماكياتو سنجل",
                 "name_fr": "Macchiato simple",
                 "name_zh": "单份玛奇朵"
+            
             },
             {
                 "name": "Macchiato double",
@@ -501,6 +529,7 @@ export const drinksData = [
                 "name_ar": "ماكياتو دبل",
                 "name_fr": "Macchiato double",
                 "name_zh": "双份玛奇朵"
+            
             },
             {
                 "name": "Caramel Macchiato",
@@ -517,6 +546,7 @@ export const drinksData = [
                 "name_ar": "ماكياتو صيام",
                 "name_fr": "Macchiato de jeûne",
                 "name_zh": "斋戒玛奇朵"
+            
             },
             {
                 "name": "Hot Chocolate",
@@ -609,7 +639,7 @@ export const drinksData = [
         "subtitle_fr": "Menu"
     },
     {
-        "id": "beer",
+        "id": "soft-drink",
         "title": "SOFT DRINK",
         "subtitle": "Menu",
         "headerImage": "/images/header_soft_drinks_v2.png",
@@ -657,654 +687,78 @@ export const drinksData = [
         "title_zh": "软饮料",
         "subtitle_zh": "菜单"
     },
-
     {
-        "id": "mineral-water",
-        "title": "Mineral Water ",
+        "id": "beer",
+        "title": "Beer",
         "subtitle": "Menu",
-        "headerImage": "/images/header_mineral_water.png",
+        "headerImage": "/images/header_beer.png",
         "navImage": "",
         "items": [
             {
-                "name": "Ambo Water",
-                "price": "120",
-                "description": "",
-                "name_zh": "安博水",
-                "name_ar": "مياه امبو",
-                "name_fr": "Eau d'Ambo",
-                "name_am": "አምቦ ውሃ"
+                "name": "Heineken Beer",
+                "price": "250.00",
+                "name_am": "ሄኒከን ቢራ",
+                "name_ar": "بيرة هاينكن",
+                "name_fr": "Bière Heineken",
+                "name_zh": "喜力啤酒"
             },
             {
-                "name": "Water 1/2 Liter",
-                "price": "70",
-                "description": "",
-                "name_zh": "水 1/2 升",
-                "name_ar": "ماء 1/2 لتر",
-                "name_fr": "Eau 1/2 Litre",
-                "name_am": "ውሃ 1/2 ሊትር"
+                "name": "Bedele Beer",
+                "price": "250.00",
+                "name_am": "በደሌ ቢራ",
+                "name_ar": "بيرة بيديلي",
+                "name_fr": "Bière Bedele",
+                "name_zh": "贝德勒啤酒"
             },
             {
-                "name": "Water Medium 1 Liter",
-                "price": "120",
-                "description": "",
-                "name_zh": "水介质1升",
-                "name_ar": "ماء وسط 1 لتر",
-                "name_fr": "Eau moyenne 1 litre",
-                "name_am": "መካከለኛ ውሃ 1 ሊትር"
+                "name": "Double Draft",
+                "price": "250.00",
+                "name_am": "ደብል ድራፍት",
+                "name_ar": "دابل درافت",
+                "name_fr": "Double pression",
+                "name_zh": "双份生啤"
+            },
+            {
+                "name": "Single Draft",
+                "price": "150.00",
+                "name_am": "ሲንግል ድራፍት",
+                "name_ar": "سينجل درافت",
+                "name_fr": "Simple pression",
+                "name_zh": "单份生啤"
+            },
+            {
+                "name": "Local beer",
+                "price": "200.00",
+                "name_am": "ሎካል ቢራ",
+                "name_ar": "بيرة محلية",
+                "name_fr": "Bière locale",
+                "name_zh": "本地啤酒"
+            },
+            {
+                "name": "Arada Beer",
+                "price": "250.00",
+                "name_am": "አራዳ ቢራ",
+                "name_ar": "بيرة أرادا",
+                "name_fr": "Bière Arada",
+                "name_zh": "阿拉达啤酒"
+            },
+            {
+                "name": "Red Bull",
+                "price": "900.00",
+                "name_am": "ሬድ ቡል",
+                "name_ar": "ريد بول",
+                "name_fr": "Red Bull",
+                "name_zh": "红牛"
             }
         ],
-        "title_ar": "مياه معدنية",
-        "title_zh": "矿泉水",
-        "title_fr": "Eau minérale",
-        "subtitle_fr": "Menu",
-        "subtitle_ar": "قائمة طعام",
-        "subtitle_zh": "菜单",
-        "title_am": "ማዕድን ውሃ",
-        "subtitle_am": "ዝርዝር"
-    },
-    {
-        "id": "wine",
-        "title": "Wine",
-        "subtitle": "Menu",
-        "headerImage": "/images/wine.avif",
-        "navImage": "",
-        "items": [
-            {
-                "name": "Acacia Bottle 750ml",
-                "price": "2500.00",
-                "description": "",
-                "name_ar": "زجاجة أكاسيا 750 مل",
-                "name_fr": "Bouteille d'Acacia 750ml",
-                "name_zh": "洋槐瓶 750ml",
-                "name_am": "የአካካያ ጠርሙስ 750 ሚሊ ሊትር"
-            },
-            {
-                "name": "Rift Valley 750ml",
-                "price": "2,500.00",
-                "description": "",
-                "name_ar": "ريفت فالي 750 مل",
-                "name_fr": "Vallée du Rift 750ml",
-                "name_zh": "裂谷 750ml",
-                "name_am": "ስምጥ ቫሊ 750 ሚሊ"
-            },
-            {
-                "name": "Rift Valley Cuve 750ml",
-                "price": "3,200.00",
-                "description": "",
-                "name_ar": "ريفت فالي كوف 750 مل",
-                "name_fr": "Cuve de la Vallée du Rift 750ml",
-                "name_zh": "裂谷特酿 750ml",
-                "name_am": "ሪፍት ቫሊ ኩቭ 750ml"
-            }
-        ],
-        "title_ar": "خمر",
-        "title_zh": "葡萄酒",
-        "title_fr": "Vin",
-        "title_am": "ወይን",
-        "subtitle_ar": "قائمة طعام",
-        "subtitle_zh": "菜单",
-        "subtitle_fr": "Menu",
-        "subtitle_am": "ዝርዝር"
-    },
-    {
-        "id": "whisky",
-        "title": "Whisky",
-        "subtitle": "Menu",
-        "headerImage": "/images/header_whisky.png",
-        "navImage": "",
-        "items": [
-            {
-                "name": "Blue Label 1 Lit",
-                "price": "80,000",
-                "description": "",
-                "name_ar": "العلامة الزرقاء 1 لتر",
-                "name_fr": "Étiquette Bleue 1 Litre",
-                "name_am": "ብሉ ሌብል 1 ሊትር",
-                "name_zh": "蓝色标签 1 亮起"
-            },
-            {
-                "name": "Black Label 1 Lit",
-                "price": "15,000",
-                "description": "",
-                "name_fr": "Étiquette noire 1 Litre",
-                "name_ar": "بلاك ليبل 1 لتر",
-                "name_am": "ብላክ ሌብል 1 ሊትር",
-                "name_zh": "黑标 1 亮"
-            },
-            {
-                "name": "Chivas Regal 12 Year 1 Lit",
-                "price": "15,000",
-                "description": "",
-                "name_zh": "芝华士 12 年 1 升装",
-                "name_fr": "Chivas Regal 12 ans 1 Lit",
-                "name_ar": "شيفاس ريجال 12 سنة 1 مضاءة",
-                "name_am": "ቺቫስ ሪጋል 12 ዓመት 1 ሊት"
-            },
-            {
-                "name": "Double Black 1 Lit",
-                "price": "24,000",
-                "description": "",
-                "name_zh": "双黑1亮",
-                "name_ar": "مزدوج أسود 1 لتر",
-                "name_fr": "Double Noir 1 Lit",
-                "name_am": "ደብል ብላክ 1 ሊትር"
-            },
-            {
-                "name": "Dimple",
-                "price": "14,000",
-                "description": "",
-                "name_fr": "Fossette",
-                "name_am": "ዲፕል",
-                "name_zh": "酒窝",
-                "name_ar": "الدمل"
-            },
-            {
-                "name": "Grants",
-                "price": "12,500",
-                "description": "",
-                "name_ar": "المنح",
-                "name_fr": "Subventions",
-                "name_am": "ስጦታዎች",
-                "name_zh": "补助金"
-            },
-            {
-                "name": "Grants 12",
-                "price": "12,500",
-                "description": "",
-                "name_zh": "补助金 12",
-                "name_fr": "Subventions 12",
-                "name_ar": "المنح 12",
-                "name_am": "ስጦታዎች 12"
-            },
-            {
-                "name": "Gold Label 1 Lit",
-                "price": "33,000",
-                "description": "",
-                "name_zh": "金标 1 升",
-                "name_fr": "Étiquette Or 1 Litre",
-                "name_ar": "العلامة الذهبية 1 لتر",
-                "name_am": "ጎልድ ሌብል 1 ሊትር"
-            },
-            {
-                "name": "Jack Daniel 1 Lit",
-                "price": "15,000",
-                "description": "",
-                "name_zh": "杰克丹尼 1 升",
-                "name_fr": "Jack Daniel 1 Lit",
-                "name_ar": "جاክ دانيال 1 مضاءة",
-                "name_am": "ጃክ ዳንኤል 1 ሊ"
-            },
-            {
-                "name": "King Robert 1 Lit",
-                "price": "15,000",
-                "description": "",
-                "name_fr": "Roi Robert 1 Lit",
-                "name_ar": "الملك روبرت 1 مضاءة",
-                "name_zh": "罗伯特国王 1 升",
-                "name_am": "ንጉሥ ሮበርት 1 ሊ"
-            },
-            {
-                "name": "Tia Maria",
-                "price": "18,000",
-                "description": "",
-                "name_ar": "تيا ماريا",
-                "name_fr": "Tia Maria",
-                "name_zh": "蒂亚·玛丽亚",
-                "name_am": "ቲያ ማሪያ"
-            }
-        ],
-        "title_fr": "Whisky",
-        "title_ar": "ويسكي",
-        "title_zh": "威士忌酒",
-        "subtitle_fr": "Menu",
-        "subtitle_ar": "قائمة طعام",
-        "subtitle_zh": "菜单",
-        "title_am": "ውስኪ",
-        "subtitle_am": "ዝርዝር"
-    },
-    {
-        "id": "vodka",
-        "title": "Vodka",
-        "subtitle": "Menu",
-        "headerImage": "/images/header_vodka.png",
-        "navImage": "",
-        "items": [
-            {
-                "name": "Absolute Vodka 1 Lit",
-                "price": "12,000",
-                "description": "",
-                "name_ar": "الفودكا المطلقة 1 لتر",
-                "name_fr": "Vodka Absolue 1 Litre",
-                "name_zh": "绝对伏特加 1 升",
-                "name_am": "ፍፁም ቮድካ 1 ሊት"
-            },
-            {
-                "name": "Grey Goose Vodka 1 Lit",
-                "price": "24,000",
-                "description": "",
-                "name_ar": "غراي غوس فودكا 1 لتر",
-                "name_fr": "Vodka Grey Goose 1 Litre",
-                "name_zh": "灰雁伏特加 1 升",
-                "name_am": "ግራጫ ዝይ ቮድካ 1 ሊት"
-            },
-            {
-                "name": "Sky Vodka 1 Lit",
-                "price": "4,500",
-                "description": "",
-                "name_ar": "سكاي فودكا 1 لتر",
-                "name_fr": "Vodka Sky 1 Litre",
-                "name_zh": "天空伏特加 1 升",
-                "name_am": "ስካይ ቮድካ 1 ሊት"
-            },
-            {
-                "name": "Smirnoff Red 1 Lit",
-                "price": "7,500",
-                "description": "",
-                "name_ar": "سميرنوف أحمر 1 لتر",
-                "name_fr": "Smirnoff Rouge 1 Litre",
-                "name_zh": "斯米诺红 1 升",
-                "name_am": "ስሚርኖፍ ቀይ 1 ሊት።"
-            },
-            {
-                "name": "Stolichnaya Vodka 0 .75 Lit",
-                "price": "8,500",
-                "description": "",
-                "name_zh": "苏联红伏特加 0 .75 升",
-                "name_ar": "Stolichnaya الفودكا 0.75 لتر",
-                "name_fr": "Vodka Stolichnaya 0,75 Litre",
-                "name_am": "ስቶሊችናያ ቮድካ 0.75 ሊት"
-            },
-            {
-                "name": "Winter Palace 1 Lit",
-                "price": "10,500",
-                "description": "",
-                "name_ar": "قصر الشتاء 1 مضاءة",
-                "name_fr": "Palais d'Hiver 1 Lit",
-                "name_zh": "冬宫 1 点亮",
-                "name_am": "የክረምት ቤተመንግስት 1 ሊት"
-            }
-        ],
-        "title_fr": "Vodka",
-        "title_am": "ቮድካ",
-        "title_ar": "فودكا",
-        "title_zh": "伏特加酒",
-        "subtitle_fr": "Menu",
+        "title_ar": "بيرة",
+        "title_zh": "啤酒",
+        "title_fr": "Bière",
+        "title_am": "ቢራ",
         "subtitle_am": "ዝርዝር",
         "subtitle_ar": "قائمة طعام",
-        "subtitle_zh": "菜单"
-    },
-    {
-        "id": "gin",
-        "title": "Gin",
-        "subtitle": "Menu",
-        "headerImage": "/images/header_gin.png",
-        "navImage": "",
-        "items": [
-            {
-                "name": "Beefeater 1 Lit",
-                "price": "11,500",
-                "description": "",
-                "name_ar": "ቢፊተር 1 ሊት",
-                "name_fr": "Beefeater 1 Litre",
-                "name_zh": "必富达 1 升",
-                "name_am": "ቢፍኢተር 1 ሊት"
-            },
-            {
-                "name": "Gordon Dry Gin 1 Lit",
-                "price": "11,500",
-                "description": "",
-                "name_ar": "جوردون دراي جين 1 لتر",
-                "name_fr": "Gordon Dry Gin 1 Litre",
-                "name_am": "ጎርደን ደረቅ ጂን 1 ሊ",
-                "name_zh": "戈登干杜松子酒 1 升"
-            },
-            {
-                "name": "Tanqueray Dry Gin 1 Lit",
-                "price": "17,000",
-                "description": "",
-                "name_ar": "تانكيراي جين جاف 1 لتر",
-                "name_fr": "Gin Sec Tanqueray 1 Litre",
-                "name_am": "ታንከሬይ ድራይ ጂን 1 ሊት",
-                "name_zh": "添加利干金酒 1 升"
-            }
-        ],
-        "title_fr": "Gin",
-        "title_ar": "شرك",
-        "title_zh": "杜松子酒",
-        "title_am": "ጂን",
-        "subtitle_fr": "Menu",
-        "subtitle_ar": "قائمة طعام",
         "subtitle_zh": "菜单",
-        "subtitle_am": "ዝርዝር"
-    },
-    {
-        "id": "cognac",
-        "title": "Cognac",
-        "subtitle": "Menu",
-        "headerImage": "/images/header_cognac.png",
-        "navImage": "",
-        "items": [
-            {
-                "name": "Courvoisier Cognac",
-                "price": "30,000",
-                "description": "",
-                "name_ar": "هينيسي مقابل كونياك",
-                "name_fr": "Hennessy VS Cognac",
-                "name_zh": "轩尼诗 VS 干邑",
-                "name_am": "ሄኔሲ ቪኤስ ኮኛክ"
-            },
-            {
-                "name": "Courvoisier Cognac VS",
-                "price": "26,500",
-                "description": "",
-                "name_fr": "Courvoisier VS Cognac",
-                "name_ar": "كورفوازييه مقابل كونياك",
-                "name_zh": "拿破仑干邑 VS 干邑",
-                "name_am": "ኩርቮዚየር VS ኮኛክ"
-            },
-            {
-                "name": "Ramey xo cognac",
-                "price": "70,000",
-                "description": "",
-                "name_fr": "Rémy Martin XO",
-                "name_ar": "ريمي مارتن XO",
-                "name_zh": "人头马 XO",
-                "name_am": "Rémy ማርቲን XO"
-            }
-        ],
-        "title_ar": "كونياك",
-        "title_am": "ኮኛክ",
-        "title_fr": "Cognac",
-        "title_zh": "科涅克白兰地",
-        "subtitle_fr": "Menu",
-        "subtitle_am": "ዝርዝር",
-        "subtitle_zh": "菜单",
-        "subtitle_ar": "قائمة طعام"
-    },
-    {
-        "id": "others-liquor",
-        "title": "OTHERS LIQUOR",
-        "subtitle": "Menu",
-        "headerImage": "/images/header_liqueur.png",
-        "navImage": "",
-        "items": [
-            {
-                "name": "Amarula 1 Lit",
-                "price": "15,000",
-                "description": "",
-                "name_ar": "امارولا 1 مضاءة",
-                "name_fr": "Amarula 1 Litre",
-                "name_zh": "爱玛乐 1 升",
-                "name_am": "አማሩላ 1 ሊ"
-            },
-            {
-                "name": "Cointreau 1 Lit",
-                "price": "23,500",
-                "description": "",
-                "name_fr": "Cointreau 1 Litre",
-                "name_ar": "كوانترو 1 مضاءة",
-                "name_zh": "君度 1 升",
-                "name_am": "ኮንትሮ 1 ሊት"
-            },
-            {
-                "name": "Fernet Branca 1 Lit",
-                "price": "18,000",
-                "description": "",
-                "name_fr": "Fernet Branca 1 Litre",
-                "name_ar": "فيرنيት برانكا 1 لتر",
-                "name_zh": "费奈特布兰卡 1 升",
-                "name_am": "ፈርኔት ብራንካ 1 ሊት"
-            },
-            {
-                "name": "Martin Rosso",
-                "price": "14,500",
-                "description": "",
-                "name_zh": "马丁·罗索",
-                "name_ar": "مارتن روسو",
-                "name_fr": "Martin Rosso",
-                "name_am": "ማርቲን ሮስሶ"
-            },
-            {
-                "name": "Martini Bianco 1 Lit",
-                "price": "14,500",
-                "description": "",
-                "name_ar": "مارتيني بيانኮ 1 مضاءة",
-                "name_fr": "Martini Blanco 1 Litre",
-                "name_zh": "白马天尼 1 升",
-                "name_am": "ማርቲኒ ቢያንኮ 1 ሊ"
-            }
-        ],
-        "title_ar": "مشروبات كحولية أخرى",
-        "title_fr": "AUTRES ALCOOLS",
-        "subtitle_ar": "قائمة طعام",
-        "subtitle_fr": "Menu",
-        "title_am": "ሌሎች መጠጥ",
-        "title_zh": "其他酒类",
-        "subtitle_am": "ዝርዝር",
-        "subtitle_zh": "菜单"
-    },
-    {
-        "id": "shot-liqueur",
-        "title": "SHOT LIQUOR",
-        "subtitle": "Menu",
-        "headerImage": "/images/header_liqueur.png",
-        "navImage": "",
-        "items": [
-            {
-                "name": "Black Label Shot",
-                "price": "500.00",
-                "description": "",
-                "name_zh": "黑标子弹",
-                "name_ar": "بلاك ليبل شوت",
-                "name_fr": "Shot de Black Label",
-                "name_am": "ብላክ ሌብል ሾት"
-            },
-            {
-                "name": "Double Black Shot",
-                "price": "750.00",
-                "description": "",
-                "name_zh": "双黑子弹",
-                "name_ar": "دبل بلاك شوت",
-                "name_fr": "Shot de Double Black",
-                "name_am": "ደብል ብላክ ሾት"
-            },
-            {
-                "name": "Jack Daniel Shot",
-                "price": "600.00",
-                "description": "",
-                "name_zh": "杰ክዳንኤል子弹",
-                "name_ar": "جاك دانيال شوت",
-                "name_fr": "Shot de Jack Daniel",
-                "name_am": "ጃክ ዳንኤል ሾት"
-            },
-            {
-                "name": "Absolut Shot",
-                "price": "350.00",
-                "description": "",
-                "name_zh": "绝对子弹",
-                "name_fr": "Shot d'Absolut",
-                "name_am": "አብሶሉት ሾት",
-                "name_ar": "أبسلوت شوت"
-            },
-            {
-                "name": "Grey Goose Shot",
-                "price": "650.00",
-                "description": "",
-                "name_zh": "灰雁子弹",
-                "name_fr": "Shot de Grey Goose",
-                "name_am": "ግሬይ ጉስ ሾት",
-                "name_ar": "غراي غوس شوت"
-            },
-            {
-                "name": "Stolichnaya Shot",
-                "price": "400.00",
-                "description": "",
-                "name_zh": "斯托利奇纳亚射击",
-                "name_fr": "Tir de Stolichnaya",
-                "name_am": "ስቶሊችናያ ሾት",
-                "name_ar": "تسديدة ستوليشنايا"
-            },
-            {
-                "name": "Malibu Shot",
-                "price": "450.00",
-                "description": "",
-                "name_ar": "ماليبو شوت",
-                "name_am": "ማሊቡ ሾት",
-                "name_fr": "Shot de Malibu",
-                "name_zh": "马里布"
-            },
-            {
-                "name": "Bacardi Gold Shot",
-                "price": "450.00",
-                "description": "",
-                "name_fr": "Shot de Bacardi Gold",
-                "name_ar": "باكاردي جولد شوت",
-                "name_am": "ባካርዲ ወርቅ ሾት",
-                "name_zh": "百加得金朗姆"
-            },
-            {
-                "name": "Tequila Camino Shot",
-                "price": "550.00",
-                "description": "",
-                "name_ar": "تيكيلا كامينو شوت",
-                "name_am": "ተኪላ ካሚኖ ሾት",
-                "name_fr": "Shot de Tequila Camino",
-                "name_zh": "卡米诺龙舌兰"
-            },
-            {
-                "name": "Amarula Shot",
-                "price": "350.00",
-                "description": "",
-                "name_fr": "Shot d'Amarula",
-                "name_am": "አማሩላ ሾት",
-                "name_ar": "امارولا شوت",
-                "name_zh": "爱玛乐"
-            },
-            {
-                "name": "Fernet Branch Shot",
-                "price": "500.00",
-                "description": "",
-                "name_fr": "Shot de Fernet Branca",
-                "name_am": "ፈርኔት ብራንካ ሾት",
-                "name_ar": "فرنيት برانكا شوت",
-                "name_zh": "阿根廷苦酒"
-            },
-            {
-                "name": "Gordon Gin Shot",
-                "price": "350.00",
-                "description": "",
-                "name_ar": "جوردون جين شوت",
-                "name_fr": "Shot de Gordon Gin",
-                "name_am": "ጎርደን ጂን ሾት",
-                "name_zh": "戈登金酒"
-            },
-            {
-                "name": "Tanqueray Shot",
-                "price": "450.00",
-                "description": "",
-                "name_ar": "تانكراي شوت",
-                "name_zh": "添加利金酒",
-                "name_fr": "Shot de Tanqueray",
-                "name_am": "ታንከሬይ ሾት"
-            },
-            {
-                "name": "Beefter Gin Shot",
-                "price": "350.00",
-                "description": "",
-                "name_ar": "بيفيتر جين شوت",
-                "name_zh": "必富达金酒",
-                "name_fr": "Shot de Beefeater Gin",
-                "name_am": "ቢፊተር ጂን ሾት"
-            },
-            {
-                "name": "Captain Morgan Shot",
-                "price": "350.00",
-                "description": "",
-                "name_ar": "كابتن مورغان شوت",
-                "name_zh": "摩根船长",
-                "name_fr": "Shot de Captain Morgan",
-                "name_am": "ካፒቴን ሞርጋን ሾት"
-            },
-            {
-                "name": "Martini Rosso Shot",
-                "price": "450.00",
-                "description": "",
-                "name_ar": "مارتيني روسو شوت",
-                "name_fr": "Shot de Martini Rosso",
-                "name_zh": "马天尼红威末酒",
-                "name_am": "ማርቲኒ ሮሶ ሾት"
-            }
-        ],
-        "title_zh": "射击液",
-        "title_ar": "طلقة الخمور",
-        "title_fr": "LIQUEUR DE SHOT",
-        "title_am": "የተኩስ መጠጥ",
-        "subtitle_zh": "菜单",
-        "subtitle_ar": "قائمة طعام",
-        "subtitle_fr": "Menu",
-        "subtitle_am": "ዝርዝር"
-    },
-    {
-        "id": "rum",
-        "title": "Rum",
-        "subtitle": "Menu",
-        "headerImage": "/images/header_rum.png",
-        "navImage": "",
-        "items": [
-            {
-                "name": "Bacardi Gold 1 Lit",
-                "price": "15,000",
-                "description": "",
-                "name_ar": "باكاردي جولد 1 لتر",
-                "name_fr": "Bacardi Or 1 Litre",
-                "name_zh": "百加得金装 1 升",
-                "name_am": "ባካርዲ ወርቅ 1 ሊት"
-            },
-            {
-                "name": "Bacardi Silver 1 Lit",
-                "price": "15,000",
-                "description": "",
-                "name_ar": "باكاردي فضي 1 لتر",
-                "name_fr": "Bacardi Argent 1 Litre",
-                "name_zh": "百加得银 1 升",
-                "name_am": "ባካርዲ ሲልቨር 1 ሊት።"
-            },
-            {
-                "name": "Captain Morgan 1 Lit",
-                "price": "15,000",
-                "description": "",
-                "name_ar": "الكابتن مورغان 1 مضاءة",
-                "name_fr": "Capitaine Morgan 1 Lit",
-                "name_zh": "摩根船长 1 点燃",
-                "name_am": "ካፒቴን ሞርጋን 1 ሊ"
-            },
-            {
-                "name": "Malibu 1 Lit ",
-                "price": "18,000",
-                "description": "",
-                "name_fr": "Malibu 1 Litre",
-                "name_ar": "ماليبو 1 لتر",
-                "name_am": "ማሊቡ 1 ሊ",
-                "name_zh": "马里布 1 升"
-            },
-            {
-                "name": "Tequila Camino 0.75 Lit",
-                "price": "16,500",
-                "description": "",
-                "name_fr": "Tequila Camino 0,75 Litre",
-                "name_ar": "تيكيلا كامينو 0.75 لتر",
-                "name_am": "ተኪላ ካሚኖ 0.75 ሊ",
-                "name_zh": "龙舌兰卡米诺 0.75 升"
-            }
-        ],
-        "title_fr": "Rhum",
-        "title_ar": "رم",
-        "title_zh": "朗姆酒",
-        "title_am": "ሮም",
-        "subtitle_am": "ዝርዝር",
-        "subtitle_zh": "菜单",
-        "subtitle_fr": "Menu",
-        "subtitle_ar": "قائمة طعام"
+        "subtitle_fr": "Menu"
     }
 ];
 
@@ -1314,7 +768,7 @@ export const cocktailData = [
         "title": "Cocktails",
         "title_am": "ኮክቴሎች",
         "title_zh": "鸡尾酒",
-        "title_ar": "ኮክቴሎች",
+        "title_ar": "كوكتيلات",
         "title_fr": "Cocktails",
         "subtitle": "cocktails",
         "subtitle_am": "ዝርዝር",
@@ -1324,32 +778,6 @@ export const cocktailData = [
         "headerImage": "/images/nav_cocktails.png",
         "navImage": "/images/nav_cocktails.png",
         "items": [
-            {
-                "name": "Margarita cocktail",
-                "price": "1,400.00",
-                "description": "1Oz Cointreau, 1 oz Lime juice, 2 oz Tequila-",
-                "name_am": "ማርጋሪታ ኮክቴል",
-                "name_fr": "Cocktail Margarita",
-                "name_zh": "玛格丽特鸡尾酒",
-                "name_ar": "كوكتيل مارجريتا",
-                "description_am": "1 አውንስ ኮይንትሬው፣ 1 አውንስ የሎሚ ጭማቂ፣ 2 አውንስ ተኪላ-",
-                "description_fr": "1 oz de Cointreau, 1 oz de jus de citron vert, 2 oz de Tequila-",
-                "description_zh": "1盎司君度橙酒，1盎司青柠汁，2盎司龙舌兰酒-",
-                "description_ar": "1 أونصة كوانترو، 1 أونصة عصير ليمون، 2 أونصة تيكيላ-"
-            },
-            {
-                "name": "Long Iceland",
-                "price": "450.00",
-                "description": "Main alcohol; vodka, gin tequila rum, triples 1 oz. go gouache syrup, 1 oz lemon juice,& 1/2 oz gin",
-                "name_am": "ሎንግ አይስላንድ",
-                "name_fr": "Long Island",
-                "name_zh": "长岛冰茶",
-                "name_ar": "لونج አይስላንድ",
-                "description_am": "ዋናው አልኮል; ቮድካ፣ ጂን ተኪላ ሮም፣ ትሪፕል ሴክ 1 አውንስ፣ 1 አውንስ የሎሚ ጭማቂ፣ እና 1/2 አውንስ ጂን",
-                "description_fr": "Alcool principal ; vodka, gin, tequila, rhum, triple sec 1 oz, 1 oz de jus de citron, & 1/2 oz de gin",
-                "description_zh": "主要酒精；伏特加、金酒、龙舌兰、朗姆酒、1盎司君度、1盎司柠檬汁及1/2盎司金酒",
-                "description_ar": "الكحول الرئيسي؛ فودكا، جين، تيكيلا، روم، تريبل سيك 1 أونصة، 1 أونصة عصير ليمون، و 1/2 أونصة جين"
-            },
             {
                 "name": "Strawberry Mojito",
                 "price": "340.00",
